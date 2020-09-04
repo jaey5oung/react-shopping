@@ -98,8 +98,8 @@ function RegisterPage(props) {
         } = props;
         return (
           <div className="app">
-            <h2>Sign up</h2>
-            <Form style={{ minWidth: '375px'}} {...formItemLayout} onSubmit={handleSubmit} >
+            <h1>SIGN UP</h1>
+            <Form style={{ minWidth: '370px'}} {...formItemLayout} onSubmit={handleSubmit} >
 
               <Form.Item required label="Name">
                 <Input
@@ -188,7 +188,7 @@ function RegisterPage(props) {
 
               <Form.Item {...tailFormItemLayout}>
                 <Button onClick={handleSubmit} type="primary" disabled={isSubmitting}>
-                  Submit
+                  회원가입
                 </Button>
               </Form.Item>
             </Form>
