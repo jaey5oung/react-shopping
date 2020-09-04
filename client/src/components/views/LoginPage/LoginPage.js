@@ -94,8 +94,8 @@ function LoginPage(props) {
         } = props
         return (
           <div className="app">
-            <Title level={2}>Log In</Title>
-            <form onSubmit={handleSubmit} style={{ width: "350px" }}>
+            <Title level={2}>LOGIN</Title>
+            <form onSubmit={handleSubmit} style={{ width: "300px" }}>
               <Form.Item required>
                 <Input
                   id="email"
@@ -113,9 +113,9 @@ function LoginPage(props) {
               </Form.Item>
 
               <Form.Item required>
-                <Input
+                <Input 
                   id="password"
-                  prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
+                  prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)"}} />}
                   placeholder="Enter your password"
                   type="password"
                   value={values.password}
@@ -162,7 +162,7 @@ function LoginPage(props) {
                     disabled={isSubmitting}
                     onSubmit={handleSubmit}
                   >
-                    Log in
+                    로그인
                   </Button>
                   <SocialLogin responseKaKao={responseKaKao} />
                 </div>
