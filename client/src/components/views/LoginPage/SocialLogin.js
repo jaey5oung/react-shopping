@@ -5,9 +5,10 @@ import styled from "styled-components";
 
 const KaKaoBtn = styled(KaKaoLogin)`
   width: 100%;
-  height: 38px;
+  padding: 0px 15px;
+  height: 40px;
   color: #783c00;
-  background-color: #efefef;
+  background-color: yellow;
   border: 1px solid transparent;
   border-radius: 5px;
   font-size: 14px;
@@ -41,7 +42,7 @@ function SocialLogin({ responseKaKao }) {
         //성공했을때 불러올 함수로서 fetch해서 localStorage에 저장할 함수를 여기로 저장
         getProfile={true}
       >
-        <ButtonText>Kakao 로그인</ButtonText>
+        <ButtonText>카카오계정으로 로그인</ButtonText>
       </KaKaoBtn>
     </>
   );

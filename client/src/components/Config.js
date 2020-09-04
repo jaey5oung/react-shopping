@@ -1,5 +1,5 @@
 //SERVER ROUTES
-export const USER_SERVER = "/api/users";
+export const USER_SERVER = "/api/users"
 
 //KAKAO KEY
-export const KAKAO_KEY = "3aba4c0d34a1a89a2a16df9d3b2349c8";
+export const KAKAO_KEY = "a0bb36ad7b76ce0b14f3fdf6f4ba7cc8"

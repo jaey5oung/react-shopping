@@ -17,8 +17,8 @@ export function registerUser(dataToSubmit){
     }
 }
 
-export function loginUser(dataToSubmit){
-    const request = axios.post(`${USER_SERVER}/login`,dataToSubmit)
+export function loginUser(body){
+    const request = axios.post(`${USER_SERVER}/login`,body)
                 .then(response => response.data);
 
     return {
